@@ -12,7 +12,7 @@ import base64
 
 
 start = '2000-01-01'
-end   =  date.today()
+end   =  '2022-03-18'
 
 st.title('Stock Trend Prediction')
 
