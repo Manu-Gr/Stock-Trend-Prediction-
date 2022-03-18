@@ -5,3 +5,4 @@ streamlit==1.7.0
 statsmodels==0.13.2
 keras==2.8.0
 matplotlib==3.5.1
+pandas_datareader==0.1.0
