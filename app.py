@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import pandas_datareader as data
+import pandas_datareader as pdr
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import date
@@ -22,7 +22,7 @@ user_input = st.text_input("Enter the Stock Ticker",'TCS.NS')
 st.markdown("***")
 st.write("Please Find The Name Of the Stock Ticker From This [Link](https://finance.yahoo.com/quote/INFY?p=INFY&.tsrc=fin-srch)")
 
-df= data.DataReader(user_input,'yahoo',start,end)
+df= pdr.DataReader(user_input,'yahoo',start,end)
 
 df1 = df.copy()
 
