@@ -22,7 +22,7 @@ user_input = st.text_input("Enter the Stock Ticker",'TCS.NS')
 st.markdown("***")
 st.write("Please Find The Name Of the Stock Ticker From This [Link](https://finance.yahoo.com/quote/INFY?p=INFY&.tsrc=fin-srch)")
 
-df= data.DataReader("user_input",'yahoo',start,end)
+df= data.DataReader(user_input,'yahoo',start,end)
 
 df1 = df.copy()
 
