@@ -6,3 +6,4 @@ pandas_datareader==0.10.0
 plotly==5.6.0
 scikit_learn==1.0.2
 streamlit==1.7.0
+tensorflow==2.8.0
